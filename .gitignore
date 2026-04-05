@@ -1,0 +1,175 @@
+# =========================
+# OS / File Explorer
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+*.out
+*.err
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.env
+secrets/
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.kubeconfig
+*.tfvars
+vault.yml
+vault.yaml
+ansible-vault-pass.txt
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+dist/
+build/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.npm/
+.parcel-cache/
+.next/
+.nuxt/
+dist/
+
+# =========================
+# Java / JVM
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+.mvn/
+
+# =========================
+# Go
+# =========================
+bin/
+.coverprofile
+
+# =========================
+# Rust
+# =========================
+target/
+Cargo.lock
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =========================
+# Ansible
+# =========================
+*.retry
+ansible.log
+
+# =========================
+# Docker / Containers
+# =========================
+*.tar
+docker-data/
+volumes/
+data/
+
+# =========================
+# Kafka / Runtime Data
+# =========================
+kafka-logs/
+kraft-combined-logs/
+zookeeper-data/
+zookeeper-logs/
+tmp/
+*.pid
+
+# =========================
+# Prometheus / Grafana runtime
+# =========================
+prometheus-data/
+grafana-data/
+
+# =========================
+# Generated dashboards / exports
+# Keep real exported JSON if you want versioning
+# Ignore temporary exports only
+# =========================
+*.bak
+*.backup
+
+# =========================
+# Test / Benchmark output
+# =========================
+coverage/
+reports/
+artifacts/
+benchmarks/output/
+results/tmp/
+results/*.tmp
+
+# =========================
+# Local overrides
+# =========================
+config/local/
+config/*/*.local
+config/*/*.local.*
+infra/inventory.local.ini
+infra/*.local
+infra/inventory.ini
+!infra/inventory.example.ini
